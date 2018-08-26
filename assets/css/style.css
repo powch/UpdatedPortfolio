@@ -6,10 +6,10 @@ nav {
     visibility: hidden;
 }
 
-.linkIcon {
+.linkIcon, .cardBtn {
     text-decoration: none;
     color: inherit;
-    transition: .3s color;
+    transition: .25s color;
 }
 
 .newBlock {
@@ -19,4 +19,8 @@ nav {
 
 .newBlock:nth-child(even) {
     background-color: transparent;
+}
+
+.cardBtn i {
+    font-size: 1.2rem;
 }
