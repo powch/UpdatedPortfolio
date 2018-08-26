@@ -1,0 +1,22 @@
+i {
+    font-size: 2rem;
+}
+
+nav {
+    visibility: hidden;
+}
+
+.linkIcon {
+    text-decoration: none;
+    color: inherit;
+    transition: .3s color;
+}
+
+.newBlock {
+    background-color: #444;
+    padding: 5%;
+}
+
+.newBlock:nth-child(even) {
+    background-color: transparent;
+}
