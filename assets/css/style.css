@@ -21,7 +21,7 @@ i {
     padding: 5%;
 }
 
-.newBlock:nth-child(odd) {
+.newBlock:nth-child(even) {
     background-color: transparent;
 }
 
