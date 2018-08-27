@@ -25,6 +25,10 @@ i {
     background-color: transparent;
 }
 
+.blurb {
+    font-size: 1.25rem;
+}
+
 .blurb::first-letter {
     font-size: 2rem;
     font-weight: bold;
