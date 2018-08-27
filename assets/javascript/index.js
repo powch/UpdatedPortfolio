@@ -86,6 +86,13 @@ var funcs = {
 
 
         });
+    },
+    fade: function(elem, val) {
+        $(elem)
+            .stop()
+            .animate({
+                opacity: val
+            });
     }
 }
 
@@ -95,4 +102,16 @@ $('.card-body').click(function() {
     var url = $(this).attr('data-link');
 
     window.open(url, '_blank');
+});
+
+$(window).scroll(function() {
+    var pos = $(window).scrollTop();
+
+    if (pos >= 150) {
+        funcs.fade('#navSpy', 1);
+        funcs.fade('#topBtn', 1);
+    } else {
+        funcs.fade('#navSpy', 0);
+        funcs.fade('#topBtn', 0);
+    }
 });

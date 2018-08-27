@@ -6,8 +6,8 @@ i {
     font-size: 2rem;
 }
 
-nav {
-    visibility: hidden;
+#navSpy {
+    opacity: 0;
 }
 
 .linkIcon, .cardBtn {
@@ -21,7 +21,7 @@ nav {
     padding: 5%;
 }
 
-.newBlock:nth-child(even) {
+.newBlock:nth-child(odd) {
     background-color: transparent;
 }
 
@@ -52,8 +52,19 @@ nav {
     border-right: 1px solid #303030;
 }
 
-.banner {
-    position: relative;
-    width: 100%;
-    line-height: 7%;
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .25s background-color;
+}
+
+.card:hover {
+    background-color: #444;
+}
+
+#topBtn {
+    opacity: 0;
+    z-index: 1;
+    position: fixed;
+    right: 4%;
+    bottom: 20%;
 }
