@@ -13,6 +13,28 @@
 </head>
 <body data-spy="scroll" data-target="#navSpy" data-offset="0" id="bodyScroll">
 
+    <div class="modal fade" id="cvModal" tabindex="-1" role="dialog" aria-labelledby="cvModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cvModal">CV Being Updated!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Thanks for taking the time to check out my page! I'm in the process of updating my CV and will have it available as soon
+                    as possible.</p>
+                    <p>In the meantime, please email me at: cpcpowell8@gmail.com</p>
+                    <p>Thank you!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <a href="#welcome" class="button" id="topBtn"><i class="fas fa-chevron-circle-up"></i></i></a>
     
     <nav id="navSpy" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -82,7 +104,7 @@
                         <li>Phone<span class="tab">:</span>Available on request</li>
                         <li>Available<span class="tab">:</span>Mon - Sat, 9AM - 5PM</li>
                     </ul>
-                    <button type="button" class="btn btn-primary">Download CV</button>
+                    <button type="button" class="btn btn-primary"data-toggle="modal" data-target="#cvModal">Download CV</button>
                 </div>
             </div>
         </div>
