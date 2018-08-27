@@ -21,6 +21,35 @@ nav {
     background-color: transparent;
 }
 
+.blurb::first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tab {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.title::first-letter {
+    text-decoration: underline;
+}
+
+.card-body:hover {
+    cursor: pointer;
+}
+
 .cardBtn i {
     font-size: 1.2rem;
+}
+
+.cardBtnDiv {
+    border-right: 1px solid #303030;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    line-height: 7%;
 }
