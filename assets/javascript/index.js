@@ -33,7 +33,7 @@ var cards = [
   },
   {
     title: 'Liri Node Bot',
-    image: 'assets/images/liri.png',
+    image: 'assets/images/liri.jpg',
     siteURL: 'https://github.com/powch/liri-node-app',
     sourceURL: 'https://github.com/powch/liri-node-app'
   }
