@@ -1,5 +1,3 @@
-var $nav = $('nav');
-
 var cards = [
   {
     title: 'fläk Chat',
@@ -8,10 +6,10 @@ var cards = [
     sourceURL: 'https://github.com/sarashunter/flakmessenger'
   },
   {
-    title: 'Word Guess',
+    title: 'Bamazon App',
     image: 'assets/images/hangman.jpg',
-    siteURL: 'https://powch.github.io/word-guess-game/',
-    sourceURL: 'https://github.com/powch/word-guess-game'
+    siteURL: 'https://github.com/powch/bamazon',
+    sourceURL: 'https://github.com/powch/bamazon'
   },
   {
     title: 'Trivia Game',
