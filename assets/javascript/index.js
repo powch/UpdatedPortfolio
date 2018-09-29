@@ -32,10 +32,10 @@ var cards = [
         sourceURL: 'https://github.com/powch/TrainScheduler'
     },
     {
-        title: 'Gif Tastic!',
-        image: 'assets/images/git.png',
-        siteURL: 'https://powch.github.io/GifTastic/',
-        sourceURL: 'https://github.com/powch/GifTastic'
+        title: 'Friend Finder',
+        image: 'assets/images/friends.jpg',
+        siteURL: 'https://friend-finder-powch.herokuapp.com/',
+        sourceURL: 'https://github.com/powch/FriendFinder'
     }
 ];
 
