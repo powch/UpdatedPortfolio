@@ -1,5 +1,4 @@
 var cards = [
-<<<<<<< HEAD
     {
         title: 'fläk Chat',
         image: 'assets/images/flak-logo-birdonly-transparent.png',
@@ -36,44 +35,6 @@ var cards = [
         siteURL: 'https://friend-finder-powch.herokuapp.com/',
         sourceURL: 'https://github.com/powch/FriendFinder'
     }
-=======
-  {
-    title: 'fläk Chat',
-    image: 'assets/images/flak-logo-birdonly-transparent.png',
-    siteURL: 'https://sarashunter.github.io/flakmessenger/index.html',
-    sourceURL: 'https://github.com/sarashunter/flakmessenger'
-  },
-  {
-    title: 'Bamazon App',
-    image: 'assets/images/hangman.jpg',
-    siteURL: 'https://github.com/powch/bamazon',
-    sourceURL: 'https://github.com/powch/bamazon'
-  },
-  {
-    title: 'Trivia Game',
-    image: 'assets/images/trivia.png',
-    siteURL: 'https://powch.github.io/TriviaGame/',
-    sourceURL: 'https://github.com/powch/TriviaGame'
-  },
-  {
-    title: 'StarWars RPG',
-    image: 'assets/images/rey.jpeg',
-    siteURL: 'https://powch.github.io/unit-4-game/',
-    sourceURL: 'https://github.com/powch/unit-4-game/'
-  },
-  {
-    title: 'Train Scheduler',
-    image: 'assets/images/swordfish.jpeg',
-    siteURL: 'https://powch.github.io/TrainScheduler/',
-    sourceURL: 'https://github.com/powch/TrainScheduler'
-  },
-  {
-    title: 'Liri Node Bot',
-    image: 'assets/images/liri.jpg',
-    siteURL: 'https://github.com/powch/liri-node-app',
-    sourceURL: 'https://github.com/powch/liri-node-app'
-  }
->>>>>>> 6b7f4a603af2413409abd4d2199dfb4d0cd4ac23
 ];
 
 var funcs = {
