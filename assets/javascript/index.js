@@ -1,40 +1,40 @@
 var cards = [
-    {
-        title: 'fläk Chat',
-        image: 'assets/images/flak-logo-birdonly-transparent.png',
-        siteURL: 'https://sarashunter.github.io/flakmessenger/index.html',
-        sourceURL: 'https://github.com/sarashunter/flakmessenger'
-    },
-    {
-        title: 'Word Guess',
-        image: 'assets/images/hangman.jpg',
-        siteURL: 'https://powch.github.io/word-guess-game/',
-        sourceURL: 'https://github.com/powch/word-guess-game'
-    },
-    {
-        title: 'Trivia Game',
-        image: 'assets/images/trivia.png',
-        siteURL: 'https://powch.github.io/TriviaGame/',
-        sourceURL: 'https://github.com/powch/TriviaGame'
-    },
-    {
-        title: 'StarWars RPG',
-        image: 'assets/images/rey.jpeg',
-        siteURL: 'https://powch.github.io/unit-4-game/',
-        sourceURL: 'https://github.com/powch/unit-4-game/'
-    },
-    {
-        title: 'Train Scheduler',
-        image: 'assets/images/swordfish.jpeg',
-        siteURL: 'https://powch.github.io/TrainScheduler/',
-        sourceURL: 'https://github.com/powch/TrainScheduler'
-    },
-    {
-        title: 'Friend Finder',
-        image: 'assets/images/friends.jpg',
-        siteURL: 'https://friend-finder-powch.herokuapp.com/',
-        sourceURL: 'https://github.com/powch/FriendFinder'
-    }
+  {
+    title: 'fläk Chat',
+    image: 'assets/images/flak-logo-birdonly-transparent.png',
+    siteURL: 'https://sarashunter.github.io/flakmessenger/index.html',
+    sourceURL: 'https://github.com/sarashunter/flakmessenger'
+  },
+  {
+    title: 'Word Guess',
+    image: 'assets/images/hangman.jpg',
+    siteURL: 'https://powch.github.io/word-guess-game/',
+    sourceURL: 'https://github.com/powch/word-guess-game'
+  },
+  {
+    title: 'Eat-da-burger',
+    image: 'assets/images/burger.png',
+    siteURL: 'https://young-meadow-42592.herokuapp.com/',
+    sourceURL: 'https://github.com/powch/burger'
+  },
+  {
+    title: 'StarWars RPG',
+    image: 'assets/images/rey.jpeg',
+    siteURL: 'https://powch.github.io/unit-4-game/',
+    sourceURL: 'https://github.com/powch/unit-4-game/'
+  },
+  {
+    title: 'Train Scheduler',
+    image: 'assets/images/swordfish.jpeg',
+    siteURL: 'https://powch.github.io/TrainScheduler/',
+    sourceURL: 'https://github.com/powch/TrainScheduler'
+  },
+  {
+    title: 'Friend Finder',
+    image: 'assets/images/friends.jpg',
+    siteURL: 'https://friend-finder-powch.herokuapp.com/',
+    sourceURL: 'https://github.com/powch/FriendFinder'
+  }
 ];
 
 var funcs = {
