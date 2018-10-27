@@ -1,82 +1,83 @@
 body {
-    position: relative;
+  position: relative;
 }
 
 i {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 #navSpy {
-    opacity: 0;
+  opacity: 0;
 }
 
-.linkIcon, .cardBtn {
-    text-decoration: none;
-    color: inherit;
-    transition: .25s color;
+.linkIcon,
+.cardBtn {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.25s color;
 }
 
 .newBlock {
-    background-color: #444;
-    padding: 5%;
+  background-color: #444;
+  padding: 5%;
 }
 
 .newBlock:nth-child(even) {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .blurb {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 li {
-    line-height: 1.2rem;
+  line-height: 1.2rem;
 }
 
 pre {
-    font-size: 1rem;
-    font-family: inherit;
+  font-size: 1rem;
+  font-family: inherit;
 }
 
 .blurb::first-letter {
-    font-size: 2rem;
-    font-weight: bold;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .tab {
-    padding-left: 1em;
-    padding-right: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .title::first-letter {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .card-body:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .cardBtn i {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .cardBtnDiv {
-    border-right: 1px solid #303030;
+  border-right: 1px solid #303030;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: .25s background-color;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.25s background-color;
 }
 
 .card:hover {
-    background-color: #444;
+  background-color: #444;
 }
 
 #topBtn {
-    opacity: 0;
-    z-index: 1;
-    position: fixed;
-    right: 4%;
-    bottom: 20%;
+  opacity: 0;
+  z-index: 1;
+  position: fixed;
+  right: 4%;
+  bottom: 20%;
 }
