@@ -9,7 +9,7 @@ var cards = [
     title: "Food Truck Sniffer",
     image: "assets/images/fts_logo.png",
     siteURL: "https://foodtrucksniffer.herokuapp.com/",
-    sourceURL: "https://github.com/aotolbert/food_truck_sniffer"
+    sourceURL: "https://github.com/powch/food_truck_sniffer"
   },
   {
     title: "Eat-da-burger",
