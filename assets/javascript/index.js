@@ -1,39 +1,39 @@
 var cards = [
   {
-    title: "fläk Chat",
-    image: "assets/images/flak-logo-birdonly-transparent.png",
-    siteURL: "https://sarashunter.github.io/flakmessenger/index.html",
-    sourceURL: "https://github.com/sarashunter/flakmessenger"
+    title: 'fläk Chat',
+    image: 'assets/images/flak-logo-birdonly-transparent.png',
+    siteURL: 'https://sarashunter.github.io/flakmessenger/index.html',
+    sourceURL: 'https://github.com/sarashunter/flakmessenger'
   },
   {
-    title: "Food Truck Sniffer",
-    image: "assets/images/fts_logo.png",
-    siteURL: "https://foodtrucksniffer.herokuapp.com/",
-    sourceURL: "https://github.com/powch/food_truck_sniffer"
+    title: 'Food Truck Sniffer',
+    image: 'assets/images/fts_logo.png',
+    siteURL: 'https://foodtrucksniffer.herokuapp.com/',
+    sourceURL: 'https://github.com/powch/food_truck_sniffer'
   },
   {
-    title: "Eat-da-burger",
-    image: "assets/images/burger.png",
-    siteURL: "https://young-meadow-42592.herokuapp.com/",
-    sourceURL: "https://github.com/powch/burger"
+    title: 'Eat-da-burger',
+    image: 'assets/images/burger.png',
+    siteURL: 'https://young-meadow-42592.herokuapp.com/',
+    sourceURL: 'https://github.com/powch/burger'
   },
   {
-    title: "StarWars RPG",
-    image: "assets/images/rey.jpeg",
-    siteURL: "https://powch.github.io/unit-4-game/",
-    sourceURL: "https://github.com/powch/unit-4-game/"
+    title: 'StarWars RPG',
+    image: 'assets/images/rey.jpeg',
+    siteURL: 'https://powch.github.io/unit-4-game/',
+    sourceURL: 'https://github.com/powch/unit-4-game/'
   },
   {
-    title: "Train Scheduler",
-    image: "assets/images/swordfish.jpeg",
-    siteURL: "https://powch.github.io/TrainScheduler/",
-    sourceURL: "https://github.com/powch/TrainScheduler"
+    title: 'Mongo News Scraper',
+    image: 'assets/images/news-icon.jpg',
+    siteURL: 'https://news-sniffer.herokuapp.com/',
+    sourceURL: 'https://github.com/powch/news-scraper'
   },
   {
-    title: "Friend Finder",
-    image: "assets/images/friends.jpg",
-    siteURL: "https://friend-finder-powch.herokuapp.com/",
-    sourceURL: "https://github.com/powch/FriendFinder"
+    title: 'Friend Finder',
+    image: 'assets/images/friends.jpg',
+    siteURL: 'https://friend-finder-powch.herokuapp.com/',
+    sourceURL: 'https://github.com/powch/FriendFinder'
   }
 ];
 
