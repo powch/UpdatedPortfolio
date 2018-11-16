@@ -18,10 +18,10 @@ var cards = [
     sourceURL: 'https://github.com/powch/burger'
   },
   {
-    title: 'StarWars RPG',
-    image: 'assets/images/rey.jpeg',
-    siteURL: 'https://powch.github.io/unit-4-game/',
-    sourceURL: 'https://github.com/powch/unit-4-game/'
+    title: 'Memory Game',
+    image: 'assets/images/clickygame.PNG',
+    siteURL: 'https://powch.github.io/clickygame/',
+    sourceURL: 'https://github.com/powch/clickygame'
   },
   {
     title: 'Mongo News Scraper',

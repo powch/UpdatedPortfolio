@@ -81,3 +81,8 @@ pre {
   right: 4%;
   bottom: 20%;
 }
+
+img {
+  height: 200px,
+  width: 200px
+}
