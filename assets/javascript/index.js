@@ -8,14 +8,14 @@ var cards = [
   {
     title: 'Food Truck Sniffer',
     image: 'assets/images/fts_logo.png',
-    siteURL: 'https://foodtrucksniffer.herokuapp.com/',
-    sourceURL: 'https://github.com/powch/food_truck_sniffer'
+    siteURL: 'https://ftsreact.herokuapp.com/',
+    sourceURL: 'https://github.com/aotolbert/foodtruck_sniffer_2.0'
   },
   {
-    title: 'Eat-da-burger',
-    image: 'assets/images/burger.png',
-    siteURL: 'https://young-meadow-42592.herokuapp.com/',
-    sourceURL: 'https://github.com/powch/burger'
+    title: 'Friend Finder',
+    image: 'assets/images/friends.jpg',
+    siteURL: 'https://friend-finder-powch.herokuapp.com/',
+    sourceURL: 'https://github.com/powch/FriendFinder'
   },
   {
     title: 'Memory Game',
@@ -28,12 +28,6 @@ var cards = [
     image: 'assets/images/news-icon.jpg',
     siteURL: 'https://news-sniffer.herokuapp.com/',
     sourceURL: 'https://github.com/powch/news-scraper'
-  },
-  {
-    title: 'Friend Finder',
-    image: 'assets/images/friends.jpg',
-    siteURL: 'https://friend-finder-powch.herokuapp.com/',
-    sourceURL: 'https://github.com/powch/FriendFinder'
   }
 ];
 
@@ -83,7 +77,7 @@ var funcs = {
         )
       );
 
-      if (idx < 3) {
+      if (idx < 2) {
         $row1.append($newCol);
       } else {
         $row2.append($newCol);
